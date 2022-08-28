@@ -1,4 +1,4 @@
-﻿Console.Write("Введите элементы(через пробел): ");
+﻿Console.Write("Введите элементы: ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
  
